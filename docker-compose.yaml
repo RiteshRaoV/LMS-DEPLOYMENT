@@ -14,7 +14,7 @@ services:
   your_service_name:
     build:
       context: .
-      dockerfile: dockerfile
+      dockerfile: Dockerfile
     ports:
       - "2222:2222"
     environment:
